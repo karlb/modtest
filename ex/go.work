@@ -1,0 +1,9 @@
+go 1.19
+
+use ../celo
+replace github.com/karlb/celo v0.0.0 => ../celo
+
+use ../geth
+replace github.com/karlb/geth v0.0.0 => ../geth
+
+use .
